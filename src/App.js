@@ -13,11 +13,11 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <main className="py-3">
-        <Container>
+      <main >
+        
           <Route path="/" component={Home} />
           <Route path="/about" component={About} />
-        </Container>
+     
       </main>
       <Footer />
     </Router>
