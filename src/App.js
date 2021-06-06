@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./css/App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from "./Screens/Home";
 import About from "./Screens/About";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import { Container } from "react-bootstrap";
+
 
 const App = () => {
   return (
@@ -15,8 +15,9 @@ const App = () => {
       <Header />
       <main >
         
-          <Route path="/" component={Home} />
+          
           <Route path="/about" component={About} />
+          <Route path="/" component={Home} exact/>
      
       </main>
       <Footer />

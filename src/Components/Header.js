@@ -4,11 +4,11 @@ import {
   Navbar,
   Nav,
   NavDropdown,
-  Form,
-  Button,
-  FormControl,
+
 } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import Logo from "../assets/img/lung.png";
+
 const Header = () => {
   return (
     <Navbar className="header" expand="lg">
@@ -19,8 +19,8 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Inicio</Nav.Link>
-          <Nav.Link href="#link">Acerca de Nosotros</Nav.Link>
+          <LinkContainer to="/"><Nav.Link >Inicio</Nav.Link></LinkContainer>
+          <LinkContainer to="/about"><Nav.Link >Acerca de Nosotros</Nav.Link></LinkContainer>
           <NavDropdown title="Servicios" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
