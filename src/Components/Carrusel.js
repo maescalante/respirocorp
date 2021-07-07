@@ -1,5 +1,5 @@
 import React from "react";
-import {Carousel} from "react-bootstrap"
+import { Carousel } from "react-bootstrap";
 
 const Carrusel = () => {
   return (
@@ -11,8 +11,18 @@ const Carrusel = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div className="content">
+            <h3>Nuestra razón de ser, nuestros pacientes y sus familias</h3>
+            <p>
+              Nuestro objetivo servir siempre y cuidar la vida. Nuestro
+              propósito brindar atención integral, a personas aquejadas por
+              patologías respiratoria. Nuestras virtudes humanidad, respeto,
+              tolerancia, honestidad, y calidad científica. El fin último,
+              acompañar y consolar siempre, aliviar y curar cuando se puede y
+              contribuir al mejoramiento de la calidad de vida del individuo, la
+              familia y la sociedad.
+            </p>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
@@ -22,21 +32,18 @@ const Carrusel = () => {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="carrusel d-block w-100"
-          src="https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <div className="content">
+            <h3>¿Quienes Somos?</h3>
+            <p>
+              Somos un grupo de médicos especialistas con larga experiencia en
+              la atención de pacientes con patologías respiratorias, agrupados
+              hoy en una corporación que tiene el propósito de mejorar el
+              bienestar de la sociedad y de cada uno de sus miembros, a través
+              de la atención integral, oportuna, amable y de gran calidad
+              científica de todo aquel aquejado por enfermedades respiratorias
+              de diferente índole.
+            </p>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
