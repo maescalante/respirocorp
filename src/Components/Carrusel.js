@@ -1,15 +1,12 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
-
+import { Carousel, Container } from "react-bootstrap";
+import C1 from "../assets/img/FOTOS/carrusel1.jpeg";
+import C2 from "../assets/img/FOTOS/carrusel2.png";
 const Carrusel = () => {
   return (
     <Carousel nextLabel="" prevLabel="">
       <Carousel.Item interval={5000}>
-        <img
-          className="carrusel d-block w-100"
-          src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWVkaWNpbmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
-          alt="First slide"
-        />
+        <img className="carrusel d-block w-100" src={C1} alt="First slide" />
         <Carousel.Caption>
           <div className="content">
             <h3>Nuestra razón de ser, nuestros pacientes y sus familias</h3>
@@ -26,11 +23,7 @@ const Carrusel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={5000}>
-        <img
-          className="carrusel d-block w-100"
-          src="https://images.pexels.com/photos/3952126/pexels-photo-3952126.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-          alt="Second slide"
-        />
+        <img className="carrusel d-block w-100" src={C2} alt="Second slide" />
         <Carousel.Caption>
           <div className="content">
             <h3>¿Quienes Somos?</h3>
