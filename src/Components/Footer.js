@@ -18,7 +18,6 @@ const Footer = () => {
               Email:{" "}
               <a href="mailto: respirocorp@gmail.com">respirocorp@gmail.com</a>
             </li>
-            <li>Cel: +57 3104780605</li>
           </ul>
         </Col>
 
