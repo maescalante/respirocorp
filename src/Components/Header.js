@@ -20,8 +20,6 @@ const Header = () => {
           <LinkContainer to="/about">
             <Nav.Link>Acerca de Nosotros</Nav.Link>
           </LinkContainer>
-
-          <Nav.Link href="#link">Contactanos</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

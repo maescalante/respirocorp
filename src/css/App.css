@@ -208,11 +208,11 @@ footer {
 }
 
 #hero .content {
-  margin-top: 50px;
-  padding: 30px;
+  margin-top: 50%;
+  padding: 3%;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 30px;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-name: fadein;
 }
 
@@ -228,17 +228,12 @@ footer {
 #hero .content h3 {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 30px;
+  font-size: 4vh;
+  margin-bottom: 3%;
 }
 
 #hero .content p {
-  margin-bottom: 30px;
-}
-
-#hero .content .more-btn:hover {
-  color: #fff;
-  background: #3d975f;
+  margin-bottom: 3%;
 }
 
 @media (max-width: 992px) {
@@ -290,4 +285,18 @@ footer {
 
 .sameHeight {
   display: flex;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 10px;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.aboutPhoto {
+  max-width: 50%;
+  margin-left: 20%;
+  margin-bottom: 10vh;
 }

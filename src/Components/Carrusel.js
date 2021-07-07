@@ -3,8 +3,8 @@ import { Carousel } from "react-bootstrap";
 
 const Carrusel = () => {
   return (
-    <Carousel nextLabel="Siguiente" prevLabel="Anterior">
-      <Carousel.Item interval={3000}>
+    <Carousel nextLabel="" prevLabel="">
+      <Carousel.Item interval={5000}>
         <img
           className="carrusel d-block w-100"
           src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWVkaWNpbmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
@@ -25,7 +25,7 @@ const Carrusel = () => {
           </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={500}>
+      <Carousel.Item interval={5000}>
         <img
           className="carrusel d-block w-100"
           src="https://images.pexels.com/photos/3952126/pexels-photo-3952126.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
