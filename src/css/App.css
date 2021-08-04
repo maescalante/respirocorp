@@ -289,3 +289,12 @@ footer {
   margin-left: 20%;
   margin-bottom: 10vh;
 }
+
+.downloads {
+  margin: 10px;
+  background-color: rgba(100, 78, 155);
+  border: none;
+}
+.downloads:hover {
+  background-color: rgba(88, 148, 201, 0.6);
+}
