@@ -9,16 +9,21 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import WorkWithUs from "./Screens/WorkWithUs";
 import Documents from "./Screens/Documents";
+import Cinta from "../src/assets/img/LOGOS/cinta.png";
 const App = () => {
   return (
     <Router>
-      <Header />
-      <main>
-        <Route path="/documents" component={Documents} />
-        <Route path="/about" component={About} />
-        <Route path="/" component={Home} exact />
-      </main>
-      <Footer />
+      <div className="parent">
+        <Header />
+
+        <main>
+          <Route path="/documents" component={Documents} />
+          <Route path="/about" component={About} />
+          <Route path="/" component={Home} exact />
+        </main>
+        <img src={Cinta} className="cinta" alt="deacrotive tape" />
+        <Footer />
+      </div>
     </Router>
   );
 };

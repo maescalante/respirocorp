@@ -1,14 +1,14 @@
 import React from "react";
-import { Carousel, Container } from "react-bootstrap";
+import { Carousel, Container, Row, Col } from "react-bootstrap";
 import C1 from "../assets/img/FOTOS/carrusel1.jpeg";
 import C2 from "../assets/img/FOTOS/carrusel2.png";
 const Carrusel = () => {
   return (
-    <Carousel nextLabel="" prevLabel="">
-      <Carousel.Item interval={5000}>
-        <img className="carrusel d-block w-100" src={C1} alt="First slide" />
-        <Carousel.Caption>
+    <div>
+      <Row>
+        <Col>
           <div className="content">
+            <h1>Corporación Respiro de Colombia</h1>
             <h3>Nuestra razón de ser, nuestros pacientes y sus familias</h3>
             <p>
               Nuestro objetivo servir siempre y cuidar la vida. Nuestro
@@ -20,11 +20,17 @@ const Carrusel = () => {
               familia y la sociedad.
             </p>
           </div>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={5000}>
-        <img className="carrusel d-block w-100" src={C2} alt="Second slide" />
-        <Carousel.Caption>
+        </Col>
+        <Col>
+          <img className="carrusel d-block w-100" src={C1} alt="First slide" />
+        </Col>
+      </Row>
+
+      <Row>
+        <Col>
+          <img className="carrusel d-block w-100" src={C2} alt="Second slide" />
+        </Col>
+        <Col>
           <div className="content">
             <h3>¿Quienes Somos?</h3>
             <p>
@@ -37,9 +43,9 @@ const Carrusel = () => {
               de diferente índole.
             </p>
           </div>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+        </Col>
+      </Row>
+    </div>
   );
 };
 
