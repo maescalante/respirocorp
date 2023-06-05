@@ -21,7 +21,6 @@ const App = () => {
           <Route path="/about" component={About} />
           <Route path="/" component={Home} exact />
         </main>
-        <img src={Cinta} className="cinta" alt="deacrotive tape" />
         <Footer />
       </div>
     </Router>
