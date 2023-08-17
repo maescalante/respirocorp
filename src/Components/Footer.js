@@ -25,7 +25,7 @@ const Footer = () => {
           <h6>RTE - Régimen Tributario Especial </h6>
           <ul class="footer-links">
             <li>
-              <a href="/">Estados financieros y revelaciones</a>
+              <a href="/documents">Estados financieros y revelaciones</a>
             </li>
           </ul>
         </Col>
