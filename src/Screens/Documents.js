@@ -16,6 +16,15 @@ import File12 from "../assets/docs/2021/151_04_ACTA_ASAMBLEA_AUT_RL.pdf";
 import File13 from "../assets/docs/2021/151_05_ESTATUTOS_RESPIROCORP.pdf";
 import File14 from "../assets/docs/2021/151_06_CERTIFICADO_CUMPLIMIENTO_364_3.pdf";
 import File15 from "../assets/docs/2021/RUT_ACTUALIZADO.pdf";
+
+
+import File16 from "../assets/docs/2023/151_01_INFORME_RESULTADOS_2023.pdf";
+import File17 from "../assets/docs/2023/151_02_EF_2023_2022.pdf";
+import File18 from "../assets/docs/2023/151_03_CERTIF_CUMPLIMIENTO_364_5.pdf";
+import File19 from "../assets/docs/2023/151_04_ESTATUTOS_2023.pdf";
+import File20 from "../assets/docs/2023/151_05_CERTIF_CUMPLIMIENTO_364_3.pdf";
+import File21 from "../assets/docs/2023/151_06_52451002350327.pdf";
+
 const Documents = () => {
   return (
     <div>
@@ -30,6 +39,34 @@ const Documents = () => {
           </p>
         </div>
         <div className="row">
+        <h2>2023</h2>
+        <div className="row">
+          <Button className="downloads" href={File16} download>
+            {" "}
+            151_01_INFORME_RESULTADOS_2023
+          </Button>
+          <Button className="downloads" href={File17} download>
+            {" "}
+            151_02_EF_2023_2022
+          </Button>
+          <Button className="downloads" href={File18} download>
+            {" "}
+            151_03_CERTIF_CUMPLIMIENTO_364_5
+          </Button>
+          <Button className="downloads" href={File19} download>
+            {" "}
+            151_04_ESTATUTOS_2023
+          </Button>
+          <Button className="downloads" href={File20} download>
+            {" "}
+            151_05_CERTIF_CUMPLIMIENTO_364_3
+          </Button>
+          <Button className="downloads" href={File21} download>
+            {" "}
+            151_06_52451002350327.pdf
+          </Button>
+        </div>
+        <hr/>
           <h2>2022</h2>
           <Button className="downloads" href={File1} download>
             {" "}
