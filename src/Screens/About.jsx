@@ -89,7 +89,14 @@ const About = () => {
             de suministro de oxígeno y ventilación no invasiva domiciliaria.
           </p>
           <br />
-          <p className="justify">
+         
+        </Col>
+      </Row>
+
+      <Row>
+    
+        <Col sm={12} md={6} lg={6}>
+      <p className="justify">
             Estamos convencidos que la atención de los pacientes y sus
             diferentes patologías, debe ir acompañada de programas de educación
             en la enfermedad, que fomenten no solo la mejoría de la salud, sino
@@ -99,11 +106,7 @@ const About = () => {
             diferentes medios difusión, empezando por nuestra página y
             aplicaciones institucionales.
           </p>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col sm={12} md={6} lg={6}>
+          <br/>
           <p className="justify">
             Somos adicionalmente neumólogos con experiencia en el montaje,
             realización e interpretación de diferentes pruebas de diagnóstico
@@ -112,7 +115,19 @@ const About = () => {
             seis minutos, prueba de esfuerzo cardiopulmonar integrada, entre
             otras pruebas.
           </p>
-          <br />
+
+        </Col>
+        <Col sm={12} md={6} lg={6}>
+          <img className="aboutPhoto" src={A2} alt="Fonendo" />
+        </Col>
+      </Row>
+
+      <Row>
+         <Col sm={12} md={6} lg={6}>
+          <img className="aboutPhoto" src={A1} alt="Radiografia" />
+        </Col>
+        <Col sm={12} md={6} lg={6}>
+         
           <p className="justify">
             Poseemos el conocimiento, entrenamiento y experiencia para la
             realización de procedimientos diagnósticos y terapéuticos, como son
@@ -125,9 +140,7 @@ const About = () => {
             recompensa.
           </p>
         </Col>
-        <Col sm={12} md={6} lg={6}>
-          <img className="aboutPhoto" src={A1} alt="Radiografia" />
-        </Col>
+       
       </Row>
 
       <hr />

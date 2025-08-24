@@ -25,6 +25,16 @@ import File19 from "../assets/docs/2023/151_04_ESTATUTOS_2023.pdf";
 import File20 from "../assets/docs/2023/151_05_CERTIF_CUMPLIMIENTO_364_3.pdf";
 import File21 from "../assets/docs/2023/151_06_52451002350327.pdf";
 
+
+
+import File24_1 from "../assets/docs/2024/151_01_INFORME_RESULTADOS_2024.pdf";
+import File24_2 from "../assets/docs/2024/151_02_EF_2024_2023.pdf";
+import File24_3 from "../assets/docs/2024/151_03_CERTIF_CUMPLIMIENTO_364_5.pdf";
+import File24_4 from "../assets/docs/2024/151_04_ESTATUTOS_2023.pdf";
+import File24_5 from "../assets/docs/2024/151_05_CERTIF_CUMPLIMIENTO_364_3.pdf";
+import File24_6 from "../assets/docs/2024/151_06_52451002691299.pdf";
+
+
 const Documents = () => {
   return (
     <div>
@@ -39,6 +49,34 @@ const Documents = () => {
           </p>
         </div>
         <div className="row">
+        <h2>2024</h2>
+        <div className="row">
+          <Button className="downloads" href={File24_1} download>
+            {" "}
+            151_01_INFORME_RESULTADOS_2024
+          </Button>
+          <Button className="downloads" href={File24_2} download>
+            {" "}
+            151_02_EF_2024_2023
+          </Button>
+          <Button className="downloads" href={File24_3} download>
+            {" "}
+            151_03_CERTIF_CUMPLIMIENTO_364_5
+          </Button>
+          <Button className="downloads" href={File24_4} download>
+            {" "}
+            151_04_ESTATUTOS_2023
+          </Button>
+          <Button className="downloads" href={File24_5} download>
+            {" "}
+            151_05_CERTIF_CUMPLIMIENTO_364_3
+          </Button>
+          <Button className="downloads" href={File24_6} download>
+            {" "}
+            151_06_52451002691299.pdf
+          </Button>
+        </div>
+        <hr/>
         <h2>2023</h2>
         <div className="row">
           <Button className="downloads" href={File16} download>
